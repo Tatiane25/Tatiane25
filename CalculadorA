@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMk5RDuc9tNJOiH/YqWuIfR",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Tatiane25/Tatiane25/blob/main/CalculadorA\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def calculadora(num1,num2,operacao):\n",
+        "  if(operacao==1):\n",
+        "    return num1+num2\n",
+        "  elif(operaacao==2):\n",
+        "    return num1-num2\n",
+        "  elif(operacao==3):\n",
+        "    return num1*num2\n",
+        "  elif(operacao==4):\n",
+        "    return num1/num2\n",
+        "  else:\n",
+        "    return 0\n",
+        "\n",
+        "resultado=calculadora(4,7,1)\n",
+        "print(resultado)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6J0xtgzT4hC3",
+        "outputId": "31e15b0a-62c6-43f2-b28a-602f38d46d60"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "11\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
