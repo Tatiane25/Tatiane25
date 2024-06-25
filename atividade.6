@@ -1,0 +1,71 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM3Y4AOChg0JM1oRPH4E4Ju",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Tatiane25/Tatiane25/blob/main/atividade.6\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "xMBILivN5zek",
+        "outputId": "e46fe2db-b777-4913-c6f9-244a71e2aa95"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax (<ipython-input-2-a8c170c61372>, line 16)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-2-a8c170c61372>\"\u001b[0;36m, line \u001b[0;32m16\u001b[0m\n\u001b[0;31m    except:\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"digite seu nome:\")\n",
+        "nome = input()\n",
+        "\n",
+        "executar = True\n",
+        "\n",
+        "while(executar == True):\n",
+        "  print(\"digite seu ano de nascimento\")\n",
+        "  try:\n",
+        "    ano = int(input())\n",
+        "    if(ano < 1992) or (ano > 2022):\n",
+        "      print(\"o ano precisa ser entre 1922 e 2022\")\n",
+        "    else:\n",
+        "      idade = 2022 - ano\n",
+        "      print(\"o usuario\", nome, \"completou ou completara\", idade, \"anos de idade em 2022\")\n",
+        "      executar = False\n",
+        "      except:\n",
+        "        print(\"os anos precisam ser escritos apenas com numeros\")"
+      ]
+    }
+  ]
+}
